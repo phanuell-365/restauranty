@@ -1,18 +1,16 @@
 <template>
-  <div>
-    <div>
-      <NavBar/>
-      <div class="container text-center mt-5">
-        <h1>These are the available restaurants</h1>
-        <a href="/restaurants" class="link-success">Go to restaurants</a>
-      </div>
-    </div>
+  <NavBar/>
+  <div class="container">
+    <RestaurantTable/>
   </div>
 </template>
 
 <script>
+// import NavBar from "../components/NavBar";
+
 export default {
-  name: "restaurants"
+  name: "restaurants",
+  // components: {NavBar}
 }
 </script>
 
