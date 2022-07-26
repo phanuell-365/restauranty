@@ -6,11 +6,8 @@
 </template>
 
 <script>
-// import NavBar from "../components/NavBar";
-
 export default {
-  name: "restaurants",
-  // components: {NavBar}
+  name: "index.vue"
 }
 </script>
 
